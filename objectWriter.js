@@ -18,8 +18,8 @@ fs.mkdir("data", (err) => {
 });
 
 let cars = [];
-for (let i = 2000; i < 2019; i++) {
-    let myCar = new Car(i, "Toyota", "Camry");
+for (let i = 2000; i < 2020; i++) {
+    let myCar = new Car(i, "Telsa", "Roadster");
     cars.push(myCar);
 }
 
